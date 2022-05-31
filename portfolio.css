@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+main{
+  display: flex;
+}
+
+.fixedPage {
+  min-height: 100vh;
+  width: 50%;
+  align-items: center;
+  background: #30cdff;
+  background: -webkit-linear-gradient(top, #a4e9ff, #ebebeb);
+  background: -moz-linear-gradient(top, #a4e9ff, #ebebeb);
+  background: linear-gradient(to bottom, #a4e9ff, #ebebeb);
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 30px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile img {
+  border-radius: 50%;
+  height: 290px;
+  width: 292px;
+  margin-top: 10%;
+}
+.profileTxt {
+  display: flex;
+  margin-top: 10%;
+}
+
+.profileTxt .iam {
+  margin-left: 10%;
+}
+
+.profileTxt .name {
+  margin-left: 2%;
+  color: #001fff;
+}
+
+.status {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.logo {
+  margin-left: 10%;
+}
+
+.fa-twitter {
+  background: #000000;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #000000;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.heading{
+  display: flex;
+  margin-top: 35%;
+}
+
+.heading .about {
+  margin-left: 15%;
+  color: #001fff;
+}
+
+.heading .me {
+  margin-left: 2%;
+}
+
+.aboutMe {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.buttons {
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.download {
+  background-color: #001fff;
+  color: white;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+.hireMe {
+  background-color: #000000;
+  color: white;
+  width: 200px;
+  height: 30px;
+  margin-left: 5%;
+  cursor: pointer;
+  border-radius: 16px;
+}
