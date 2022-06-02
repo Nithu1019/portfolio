@@ -7,7 +7,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="main.js"></script>
   </head>
   <body>
     <aside class="fixedPage">
@@ -31,7 +30,7 @@
         <h1 class="name">KONESVARARAJA Nithusan</h1>
       </div>
       <div class="status">
-        <h4>
+        <h4 onclick="callme()">
           Etudiant en BTS SIO <br />(Services Informatiques aux Organisations)
         </h4>
       </div>
@@ -42,29 +41,32 @@
       </div>
     </aside>
     <main>
+
       <section class="Home" id="home">
-        <h1 class="heading">ABOUT ME</h1>
+        <h2 class="heading">ABOUT ME</h2>
 
         <div class="aboutMe">
           Cela fait maintenant 4 ans que je me suis spécialisé dans la création
           de <br />
           site internet afin de pouvoir développer au mieux vos projets ! <br />
 
-          Autodidacte et très investi, j’ai le plaisir de vous proposer mes
+          Autodidacte et très investi, j'ai le plaisir de vous proposer mes
           services <br />
           en tant que web développeur et web master <br />
           je vous accompagne tout au long de votre projet avec à la clé votre
           site internet ! <br />
-          Alors n’hésitez plus, contactez-moi dès maintenant afin de faire
+          Alors n'hésitez plus, contactez-moi dès maintenant afin de faire
           décoller votre projet.
         </div>
         <div class="buttons">
-          <button class="download">Download CV</button>
+          <button class="download" file="http://www.alsacreations.com/css/img/picto-quiz.png" download="Pacman_Kiwi.png">Download CV</button>
           <button class="hireMe">Hire Me</button>
         </div>
+      </section>
 
+      <section>
         <div class="heading">
-          <h3>MY SKILLS</h3>
+          <h2>MY SKILLS</h2>
         </div>
         <div class="skillBar">
           <p>HTML</p>
@@ -91,14 +93,11 @@
             <div class="skills sql">50%</div>
           </div>
         </div>
-
-
-        
       </section>
 
       <section class="project" id="project">
         <div class="heading">
-          <h1>PROJECTS</h1>
+          <h2>PROJECTS</h2>
         </div>
         <div class="myPro">
           <a href="https://github.com/Nithu1019/nithu" class="extrenelink">
@@ -144,9 +143,10 @@
           </a>
         </div>
       </section>
+
       <section class="compet" id="compet">
         <div class="heading">
-          <h1>COMPETENCES</h1>
+          <h2>COMPETENCES</h2>
         </div>
         <div class="competences">
           <div class="tool">
@@ -193,9 +193,10 @@
           </div>
         </div>
       </section>
+
       <section class="contact" id="contact">
         <div class="heading">
-          <h1>CONTACT</h1>
+          <h2>CONTACT</h2>
         </div>
         <div class="conForm">
           <form action="">
@@ -219,6 +220,8 @@
           </form>
         </div>
       </section>
+
     </main>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -18,6 +18,10 @@ main {
   padding-left: 30%;
 }
 
+main section {
+  animation: slidein 1s ease-in;
+}
+
 aside {
   position: fixed;
   width: 50%;
@@ -114,15 +118,8 @@ nav a {
 
 .heading {
   display: flex;
-  margin-top: 5%;
   color: #001fff;
-}
-
-.heading h3 {
-  color: #001fff;
-}
-.aboutMe {
-  margin-top: 5%;
+  margin: 5% 0% 3% 0%;
 }
 
 .buttons {
@@ -151,9 +148,9 @@ nav a {
 }
 
 .myPro {
-  margin-left: 10%;
   display: flex;
   flex-wrap: wrap;
+  gap: 50px;
 }
 
 .myPro a {
@@ -174,8 +171,6 @@ nav a {
     rgba(48, 205, 255, 0.1195071778711485) 30%
   );
   border-radius: 16px;
-  margin-left: 5%;
-  margin-top: 10%;
 }
 
 .myPro span {
@@ -213,10 +208,6 @@ nav a {
   font-size: xx-small;
 }
 
-.skillBar {
-  margin-top: 5%;
-}
-
 .html {
   width: 50%;
   background-color: #007bb5;
@@ -240,9 +231,9 @@ nav a {
 }
 
 .competences {
-  margin-left: 10%;
   display: flex;
   flex-wrap: wrap;
+  gap: 50px;
 }
 
 .competences p {
@@ -252,7 +243,6 @@ nav a {
 .competences .tool {
   height: 155px;
   width: 155px;
-  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -265,7 +255,6 @@ nav a {
     rgba(48, 205, 255, 0.1195071778711485) 30%
   );
   border-radius: 16px;
-  margin-left: 5%;
 }
 .competences img {
   height: 100px;
@@ -284,9 +273,8 @@ nav a {
 }
 
 .contact .conForm {
-  margin-top: 5%;
-
-  height: 70vh;
+  padding: 2%;
+  margin: 3% 0%;
   width: 75%;
   background: rgb(48, 205, 255);
   background: linear-gradient(
@@ -299,7 +287,6 @@ nav a {
 }
 .contact .conForm form {
   margin-left: 8%;
-  margin-top: 5%;
 }
 
 .contact form input {
@@ -326,4 +313,19 @@ nav a {
   border-radius: 16px;
   border: none;
   margin-top: 7%;
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateX(-100%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
