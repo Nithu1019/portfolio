@@ -8,7 +8,7 @@ html {
 }
 
 section {
-  min-height: 50vh;
+  min-height: 100vh;
   margin-left: 50%;
 }
 .fixedPage {
@@ -111,7 +111,7 @@ nav a {
 
 .heading {
   display: flex;
-  margin-top: 35%;
+  margin-top: 5%;
 }
 
 .heading h1 {
@@ -119,6 +119,10 @@ nav a {
   color: #001fff;
 }
 
+.heading h3 {
+  margin-left: 15%;
+  color: #001fff;
+}
 .aboutMe {
   margin-left: 15%;
   margin-top: 5%;
@@ -151,33 +155,42 @@ nav a {
 }
 
 .myPro {
-  margin-left: 15%;
+  margin-left: 10%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10%;
 }
 
 .myPro a {
   text-decoration: none;
 }
+.myPro .extrenelink{
+  height: 155px;
+  width: 155px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(48,205,255);
+  background: linear-gradient(0deg, rgba(48,205,255,0.8421962535014006) 0%, rgba(48,205,255,0.455641631652661) 10%, rgba(48,205,255,0.1195071778711485) 30%);
+  border-radius: 16px;
+  margin-left: 5%;
+  margin-top: 10%;
+}
 
 .myPro span {
   color: #001fff;
-  display: inline-block;
-  margin-left: 35px;
+
 }
 
 .myPro img {
-  height: 150px;
-  width: 150px;
-  margin-top: 10%;
-  padding: 2%;
-  box-shadow: 0px 0px 2px #000;
-  border-radius: 25px;
+  height: 100px;
+  width: 100px;
 }
-.myPro img:hover{
-  box-shadow: 0px 0px 5px #001fff;
-
+.myPro .extrenelink:hover{
+  height: 157px;
+  width: 157px;
+  background: rgb(48,205,255);
+  background: linear-gradient(0deg, rgba(48,205,255,1) 0%, rgba(48,205,255,0.7665660014005602) 32%, rgba(48,205,255,0.1195071778711485) 64%);
 }
 
 .container {
@@ -186,6 +199,7 @@ nav a {
   margin-left: 15%;
   height: 10px;
   border-radius: 16px;
+  box-shadow: 0px 0px 5px #001fff
 }
 
 .skills {
@@ -195,11 +209,11 @@ nav a {
   font-size: xx-small;
 }
 
-.comptences{
-  margin-top: 10%;
+.skillBar{
+  margin-top: 5%;
 }
 
-.comptences p{
+.skillBar p{
   margin-left: 15%;
 }
 
@@ -224,3 +238,84 @@ nav a {
   width: 50%;
   background-color: #007bb5;
 }
+
+.competences{
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.competences p {
+  color: #001fff;
+}
+
+.competences .tool {
+  height: 155px;
+  width: 155px;
+  margin-top: 10%;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(48,205,255);
+  background: linear-gradient(0deg, rgba(48,205,255,0.8421962535014006) 0%, rgba(48,205,255,0.455641631652661) 10%, rgba(48,205,255,0.1195071778711485) 30%);
+  border-radius: 16px;
+  margin-left: 5%;
+  
+}
+.competences img{
+  height: 100px;
+  width: 100px;
+}
+
+.competences .tool:hover{
+  height: 157px;
+  width: 157px;
+  background: rgb(48,205,255);
+  background: linear-gradient(0deg, rgba(48,205,255,1) 0%, rgba(48,205,255,0.7665660014005602) 32%, rgba(48,205,255,0.1195071778711485) 64%);
+}
+
+.contact .conForm{
+  margin-top: 5%;
+  margin-left: 15%;
+  height: 70vh;
+  width: 75%;
+  background: rgb(48,205,255);
+  background: linear-gradient(0deg, rgba(48,205,255,0.8421962535014006) 0%, rgba(48,205,255,0.455641631652661) 10%, rgba(48,205,255,0.1195071778711485) 30%);
+  border-radius: 16px;
+}
+.contact .conForm form{
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.contact form input{
+  width: 80%;
+  height: 20px;
+  border: none;
+  opacity: 0.5;
+  border-bottom: 2px solid #001fff;
+}
+
+.contact form .message{
+  height: 80px;
+}
+
+.contact form .details{ 
+
+  height: 100px;
+}
+.contact form button{ 
+
+  background-color: #001fff;
+  color: white;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 16px;
+  border: none;
+  margin-top: 7%;
+  margin-left: 15%;
+}
+
+ 
