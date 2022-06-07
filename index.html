@@ -12,10 +12,14 @@
     <aside class="fixedPage">
       <header>
         <nav>
-          <a href=""><b>Home</b></a>
-          <a href=""><b>Projects</b></a>
-          <a href=""><b>Compétences</b></a>
-          <a href=""><b>Contact</b></a>
+          <div class="container">
+            <ul>
+              <li class="home active"><a href="#home">Home</a></li>
+              <li class="project"><a href="#project">project</a></li>
+              <li class="compet"><a href="#compet">competences</a></li>
+              <li class="contact"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </nav>
       </header>
 
@@ -42,7 +46,7 @@
     </aside>
     <main>
 
-      <section class="Home" id="home">
+      <section id="home">
         <h2 class="heading">ABOUT ME</h2>
 
         <div class="aboutMe">
@@ -62,40 +66,39 @@
           <button class="download" file="http://www.alsacreations.com/css/img/picto-quiz.png" download="Pacman_Kiwi.png">Download CV</button>
           <button class="hireMe">Hire Me</button>
         </div>
-      </section>
 
-      <section>
         <div class="heading">
           <h2>MY SKILLS</h2>
         </div>
         <div class="skillBar">
           <p>HTML</p>
-          <div class="container">
+          <div class="bar">
             <div class="skills html">50%</div>
           </div>
 
           <p>CSS</p>
-          <div class="container">
+          <div class="bar">
             <div class="skills css">40%</div>
           </div>
 
           <p>C#</p>
-          <div class="container">
+          <div class="bar">
             <div class="skills cs">45%</div>
           </div>
 
           <p>PHP</p>
-          <div class="container">
+          <div class="bar">
             <div class="skills php">35%</div>
           </div>
           <p>SQL</p>
-          <div class="container">
+          <div class="bar">
             <div class="skills sql">50%</div>
           </div>
         </div>
       </section>
 
-      <section class="project" id="project">
+
+      <section id="project">
         <div class="heading">
           <h2>PROJECTS</h2>
         </div>
@@ -144,7 +147,7 @@
         </div>
       </section>
 
-      <section class="compet" id="compet">
+      <section id="compet">
         <div class="heading">
           <h2>COMPETENCES</h2>
         </div>
@@ -194,7 +197,7 @@
         </div>
       </section>
 
-      <section class="contact" id="contact">
+      <section id="contact">
         <div class="heading">
           <h2>CONTACT</h2>
         </div>
